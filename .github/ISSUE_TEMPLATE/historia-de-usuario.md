@@ -9,19 +9,14 @@ assignees: ''
 
 ---
 
-Como: Administrador del sistema.
-Necesito: La capacidad de crear un nuevo producto en el catálogo.
-Para que: Pueda mantener el inventario actualizado y agregar productos para los usuarios.
+Como: Indico el rol del usuario para quien estoy diseñando esta historia, como "administrador" o "usuario final".
+Necesito: Especifico la funcionalidad o acción requerida que resolverá una necesidad o problema.
+Para que: Explico el beneficio esperado o el propósito que se busca al implementar esta funcionalidad.
+
+
 
 Criterios de Aceptación
-Dado: Que soy un administrador autenticado en el sistema.
-
-Cuando: Accedo al formulario de creación de productos y completo los campos requeridos.
-
-Entonces: El sistema debe guardar el producto en la base de datos y mostrarlo en el catálogo.
-
-Dado: Que no he completado todos los campos obligatorios.
-
-Cuando: Intento guardar el producto.
-
-Entonces: El sistema debe mostrar un mensaje de error indicando los campos faltantes.
+Defino los criterios necesarios para que esta historia sea considerada como completada, usando la sintaxis Gherkin:
+Dado: Describo las condiciones iniciales o el contexto relevante.
+Cuando: Indico la acción que realiza el usuario dentro de esta historia.
+Entonces: Especifico el resultado esperado que valida el cumplimiento de la funcionalidad.
